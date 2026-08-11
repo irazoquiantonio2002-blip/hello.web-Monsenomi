@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monsanemi Psicología | Hugo Daniel Canal Rodríguez, Psicólogo Colegiado en CDMX</title>
+  <meta name="description" content="Hugo Daniel Canal Rodríguez, psicólogo colegiado. Atención presencial en Col. Agrícola Oriental y WTC, CDMX. Terapia individual, de pareja y grupal para ansiedad, depresión, autoestima, pérdidas y rupturas traumáticas. Agenda tu cita por WhatsApp.">
+  <meta name="keywords" content="psicólogo CDMX, Hugo Daniel Canal Rodríguez, terapia psicológica, ansiedad y estrés, depresión, terapia de pareja, terapia grupal, autoestima, Agrícola Oriental, WTC CDMX, Monsanemi Psicología">
+  <meta property="og:title" content="Monsanemi Psicología | Hugo Daniel Canal Rodríguez, Psicólogo Colegiado">
+  <meta property="og:description" content="No estás mal por lo que te pasa, sino te pasa lo que te pasa porque estás mal. Atención presencial en CDMX. Agenda tu cita hoy.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-panel left"></div>
+    <div class="loader-panel right"></div>
+    <div class="loader-content">
+      <div class="loader-mark">
+        <div class="loader-icon"><img src="img/logo.jpeg" alt="Logo Monsanemi"></div>
+      </div>
+      <div class="loader-word">Monsanemi <span>Psicología</span></div>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+      <span class="loader-text">Preparando tu espacio de bienestar…</span>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp button — siempre visible -->
+  <a class="wa-float" href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener" aria-label="Agendar cita por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Monsanemi Psicología — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <img src="img/logo.jpeg" alt="">
+          </div>
+          <div class="nav-logo-copy">
+            <span class="l1">Monsanemi</span>
+            <span class="l2">Psicología</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Por qué elegirnos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#ayuda">¿En qué ayudo?</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#psicologo">El psicólogo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener" class="btn-whatsapp nav-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          Agenda por WhatsApp
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Por qué elegirnos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#ayuda">¿En qué ayudo?</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#psicologo">El psicólogo</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener">Agenda por WhatsApp →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image (fixed) -->
+      <div class="hero-bg-wrap" aria-hidden="true">
+        <div class="hero-bg" id="hero-bg" role="img" aria-label="Sesión real de terapia en Monsanemi Psicología"></div>
+      </div>
+      <!-- Overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle orbs -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Hugo Daniel Canal Rodríguez · Psicólogo Colegiado
+          </div>
+
+          <!-- Typewriter kicker -->
+          <div class="hero-kicker" id="hero-kicker" aria-hidden="true">
+            <span id="kicker-text">Terapia Individual</span><span class="caret"></span>
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Sana, comprende y</span></span>
+            <span class="line"><span>transforma tu</span></span>
+            <span class="line"><span class="accent">mundo interior.</span></span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Un espacio <strong>profesional, confidencial y libre de juicio</strong>, guiado por el respeto, la empatía y la ética profesional en cada sesión, para que sanes a tu propio ritmo.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener" class="btn-primary">
+              Agendar una Cita
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#metodologia" class="btn-outline">
+              <i class="fa-solid fa-brain" style="font-size:15px;"></i>
+              Conocer Nuestro Enfoque
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Confidencialidad total
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-heart"></i>
+              Atención humana y empática
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-clock"></i>
+              Horarios flexibles que se adaptan a ti
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              Ubicación accesible en CDMX
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Por qué elegirnos
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia</div>
+            <h2 class="why-quote" id="why-heading">
+              La sanación no siempre está en las respuestas rápidas…
+              <em> muchas veces está en sentirte verdaderamente escuchado.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            En Monsanemi combinamos una metodología profesional con un trato profundamente humano, para transformar cada sesión en un paso real hacia tu bienestar emocional.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Espacio Seguro y Confidencial</h3>
+            <p>Donde puedes ser tú, sin juicios.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-user-check"></i>
+            </div>
+            <h3>Atención Personalizada</h3>
+            <p>Cada historia es única, cada tratamiento también.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3>Profesionalismo y Experiencia</h3>
+            <p>Acompañamiento basado en evidencia y ética profesional.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3>Resultados Reales</h3>
+            <p>Mejora tu bienestar emocional y transforma tu vida.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SERVICIOS
+    ══════════════════════════════════════════════════ -->
+    <section id="servicios" aria-labelledby="serv-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Nuestros servicios</div>
+            <h2 class="section-title" id="serv-heading">
+              Un espacio terapéutico<br>
+              <span class="accent">para cada etapa de tu vida</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Modalidades de atención diseñadas para acompañarte donde estés.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Cuál es para ti?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- Terapia Individual -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="img/servicio-terapia-individual.jpeg"
+              width="900"
+              height="1200"
+              loading="lazy"
+              decoding="async"
+              alt="Sesion de terapia individual entre paciente y terapeuta">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(166,216,211,0.2); border-color:rgba(166,216,211,0.5);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-user" style="color:#A6D8D3;"></i>
+              </div>
+              <h3>Terapia Individual</h3>
+              <p>Un espacio propio para explorar tus pensamientos, emociones y conductas, y construir herramientas para tu día a día.</p>
+              <div class="amb-temp">Autoconocimiento y equilibrio</div>
+            </div>
+          </div>
+
+          <!-- Terapia de Pareja -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="img/servicio-terapia-pareja.jpeg"
+              width="900"
+              height="1200"
+              loading="lazy"
+              decoding="async"
+              alt="Pareja conversando con una terapeuta durante una sesion de terapia">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,255,255,0.12); border-color:rgba(255,255,255,0.3);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-heart" style="color:#fff;"></i>
+              </div>
+              <h3>Terapia de Pareja</h3>
+              <p>Fortalece la comunicación y la confianza en tu relación, en sesiones guiadas con respeto y neutralidad profesional.</p>
+              <div class="amb-temp">Comunicación y vínculo</div>
+            </div>
+          </div>
+
+          <!-- Terapia Grupal -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="img/servicio-terapia-grupal.jpeg"
+              width="900"
+              height="1200"
+              loading="lazy"
+              decoding="async"
+              alt="Grupo de personas en una sesion de terapia grupal con terapeuta">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,255,255,0.12); border-color:rgba(255,255,255,0.3);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-people-group" style="color:#fff;"></i>
+              </div>
+              <h3>Terapia Grupal</h3>
+              <p>Comparte y crece junto a otras personas que atraviesan procesos similares, en un ambiente de apoyo colectivo.</p>
+              <div class="amb-temp">Acompañamiento colectivo</div>
+            </div>
+          </div>
+
+          <!-- Adolescentes -->
+          <div class="amb-card reveal d3">
+            <img class="amb-img"
+              src="img/servicio-adolescentes.jpeg"
+              width="900"
+              height="1200"
+              loading="lazy"
+              decoding="async"
+              alt="Adolescente en consulta psicologica con terapeuta">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(139,91,41,0.2); border-color:rgba(139,91,41,0.5);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-graduation-cap" style="color:#d9a466;"></i>
+              </div>
+              <h3>Atención a Adolescentes</h3>
+              <p>Herramientas psicoeducativas y acompañamiento adaptado a las dificultades emocionales propias de la adolescencia.</p>
+              <div class="amb-temp">Psicoeducación y desarrollo</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         ¿EN QUÉ PUEDO AYUDARTE?
+    ══════════════════════════════════════════════════ -->
+    <section id="ayuda" aria-labelledby="ayuda-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">¿En qué puedo ayudarte?</div>
+            <h2 class="why-quote" id="ayuda-heading">
+              No estás mal por lo que te pasa,
+              <em> sino te pasa lo que te pasa porque estás mal.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            No guardes lo que sientes: hablar alivia, expresar sana y pedir ayuda es de valientes.
+          </p>
+        </div>
+
+        <ul class="feature-rows ayuda-grid" aria-label="Situaciones en las que puedo acompañarte">
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-wind"></i></div>
+            <div>
+              <h4>Ansiedad y estrés</h4>
+              <p>Herramientas para regular la ansiedad y recuperar la calma en tu día a día.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-cloud-rain"></i></div>
+            <div>
+              <h4>Depresión</h4>
+              <p>Acompañamiento profesional para salir del pozo emocional y recuperar tu bienestar.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-people-roof"></i></div>
+            <div>
+              <h4>Relaciones de pareja y familiares</h4>
+              <p>Fortalece la comunicación y sana los vínculos que más importan en tu vida.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-seedling"></i></div>
+            <div>
+              <h4>Autoestima y desarrollo personal</h4>
+              <p>Reconstruye la confianza en ti mismo y avanza hacia la vida que deseas.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-compass"></i></div>
+            <div>
+              <h4>Orientación y toma de decisiones</h4>
+              <p>Claridad y acompañamiento para decidir con más seguridad en momentos difíciles.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-dove"></i></div>
+            <div>
+              <h4>Trastorno por pérdida traumática</h4>
+              <p>Un espacio para procesar el duelo y encontrar sentido después de una pérdida.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-heart-crack"></i></div>
+            <div>
+              <h4>Trastorno por ruptura traumática</h4>
+              <p>Sana el dolor de una ruptura y recupera tu estabilidad emocional.</p>
+            </div>
+          </li>
+          <li class="f-row">
+            <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-plus"></i></div>
+            <div>
+              <h4>Y más…</h4>
+              <p>¡Estoy aquí para ayudarte, sea cual sea tu situación!</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CTA BANNER — fixed parallax
+    ══════════════════════════════════════════════════ -->
+    <section id="cta-banner" aria-labelledby="cta-heading">
+      <div class="cta-bg-wrap" aria-hidden="true">
+        <div class="cta-bg" id="cta-bg" role="img" aria-label="Sesión real de terapia grupal en Monsanemi Psicología"></div>
+      </div>
+      <div class="cta-overlay" aria-hidden="true"></div>
+      <canvas id="cta-particles" aria-hidden="true"></canvas>
+      <div class="cta-inner reveal">
+        <div class="label">La salud mental no es negociable</div>
+        <h2 id="cta-heading">Invertir en ti hoy, <span style="color:var(--teal); font-style:italic;">es vivir mejor mañana.</span></h2>
+        <p>Pedir ayuda no es debilidad, es un acto de valentía. En Monsanemi Psicología te acompañamos con respeto, empatía y profesionalismo en cada paso de tu proceso. Agenda tu primera sesión y comienza a construir el bienestar que mereces.</p>
+        <a href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20mi%20primera%20sesi%C3%B3n%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener" class="btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+          Agendar por WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — Cómo trabajamos
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Tu proceso terapéutico, <span class="accent">paso a paso</span>
+          </h2>
+          <p>Un acompañamiento claro y humano, desde el primer contacto hasta tu evolución personal.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Primer Contacto</h3>
+            <p>Nos escribes por WhatsApp o el formulario de contacto y agendamos tu primera cita en el horario que mejor te acomode.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Evaluación y Plan Personalizado</h3>
+            <p>En las primeras sesiones conocemos tu historia y diseñamos un proceso terapéutico ajustado a tus objetivos y necesidades.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Acompañamiento Continuo</h3>
+            <p>Avanzamos juntos sesión a sesión, con seguimiento cercano y herramientas prácticas para tu vida diaria.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         METODOLOGÍA
+    ══════════════════════════════════════════════════ -->
+    <section id="metodologia" aria-labelledby="meto-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Nuestro enfoque</div>
+            <h2 class="section-title" id="meto-heading">
+              Un método claro,<br>
+              <span class="accent">un acompañamiento humano</span>
+            </h2>
+            <p class="producto-lead">
+              Trabajamos desde un enfoque cognitivo-conductual: entendemos cómo tus pensamientos, emociones, conductas y las situaciones que vives se conectan entre sí, y usamos ese mapa para ayudarte a transformarlo.
+            </p>
+
+            <ul class="feature-rows" aria-label="Pilares de nuestra metodología">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></div>
+                <div>
+                  <h4>Enfoque cognitivo-conductual</h4>
+                  <p>Identificamos la relación entre pensamientos, emociones y conductas para generar cambios reales y duraderos.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-regular fa-handshake"></i></div>
+                <div>
+                  <h4>Respeto y confianza</h4>
+                  <p>Cada sesión parte de un vínculo genuino, sin juicios, donde tu ritmo y tu historia se respetan por completo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-heart-circle-check"></i></div>
+                <div>
+                  <h4>Empatía profesional</h4>
+                  <p>Combinamos calidez humana con rigor clínico para acompañarte en tus momentos más difíciles.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-regular fa-comment-dots"></i></div>
+                <div>
+                  <h4>Escucha activa</h4>
+                  <p>Prestamos atención genuina a lo que dices, y a lo que no, para entender tu proceso en su totalidad.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Valores que guían cada sesión">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Respeto</span>
+                <span class="spec-name">Pilar 01</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Confianza</span>
+                <span class="spec-name">Pilar 02</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Empatía</span>
+                <span class="spec-name">Pilar 03</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Ética</span>
+                <span class="spec-name">Pilar 04</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Diagrama del modelo cognitivo-conductual: pensamientos, emociones, conductas y situaciones">
+                <img src="img/galeria-1.jpeg" alt="Diagrama del modelo cognitivo-conductual: pensamientos, emociones, conductas y situaciones" loading="lazy">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Modelo Cognitivo-Conductual
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-shield-halved" style="color:var(--brown);"></i>
+                Confidencial y Profesional
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         EL PSICÓLOGO
+    ══════════════════════════════════════════════════ -->
+    <section id="psicologo" aria-labelledby="psico-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">El profesional</div>
+            <h2 class="section-title" id="psico-heading">
+              Hugo Daniel Canal Rodríguez,<br>
+              <span class="accent">tu psicólogo de confianza</span>
+            </h2>
+            <p class="producto-lead">
+              Psicólogo colegiado y comprometido con tu bienestar. Atención presencial en espacios cómodos, seguros y accesibles, en dos sedes dentro de la Ciudad de México: <strong>Col. Agrícola Oriental</strong> y <strong>WTC</strong>.
+            </p>
+
+            <blockquote class="pro-quote">
+              "No se trata de ser fuerte todo el tiempo, sino de aprender a cuidarte en los momentos difíciles."
+              <span>— Hugo Daniel Canal Rodríguez, Psicólogo</span>
+            </blockquote>
+
+            <div class="specs-bar" role="list" aria-label="Credenciales del psicólogo">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Colegiado</span>
+                <span class="spec-name">Formación ULA</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Presencial</span>
+                <span class="spec-name">Modalidad</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Confidencial</span>
+                <span class="spec-name">Compromiso</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">CDMX</span>
+                <span class="spec-name">Ubicación</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual: foto real del psicólogo -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Hugo Daniel Canal Rodríguez, psicólogo, en la Universidad Latinoamericana (ULA)">
+                <img src="img/galeria-2.jpeg" alt="Hugo Daniel Canal Rodríguez, psicólogo, en la Universidad Latinoamericana (ULA)" loading="lazy">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Psicólogo Colegiado
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-graduation-cap" style="color:var(--brown);"></i>
+                Formación ULA
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="closing-quote reveal d3">
+          "O ya no entiendo lo que está pasando o ya pasó lo que estaba entendiendo."
+          <span>— Carlos Monsiváis Aceves</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS — fixed parallax background
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Datos clave">
+      <div class="stats-bg-wrap" aria-hidden="true">
+        <div class="stats-bg" id="stats-bg" role="img" aria-label="Sesión real de terapia en Monsanemi Psicología"></div>
+      </div>
+      <div class="stats-overlay" aria-hidden="true"></div>
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="2"
+                 aria-label="2 poblaciones atendidas">0</div>
+            <div class="stat-lbl">Poblaciones atendidas<br>Adultos y adolescentes</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="3"
+                 aria-label="3 modalidades de terapia">0</div>
+            <div class="stat-lbl">Modalidades de terapia<br>Individual, pareja y grupal</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="100% confidencialidad">0</div>
+            <div class="stat-lbl">Confidencialidad<br>en cada sesión</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de <span class="accent">tu bienestar</span>
+          </h2>
+          <p>Escríbenos y agenda tu primera cita. Te responderemos con la confidencialidad y el cuidado que mereces.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Estamos para escucharte</h3>
+            <p class="ci-sub">Da el primer paso hoy. Cada mensaje se atiende con total confidencialidad.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Atención presencial en CDMX</h4>
+                  <p>Col. Agrícola Oriental y WTC, en espacios cómodos, seguros y accesibles.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Confidencialidad</h4>
+                  <p>Todo lo que compartas con nosotros permanece protegido bajo estricta ética profesional.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Trato humano</h4>
+                  <p>Respeto, empatía y escucha activa en cada interacción, desde tu primer mensaje.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Contacto directo</h4>
+                  <p>Agenda tu cita al <a href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener" style="color:var(--teal); font-weight:600;">55 3264 3500</a>, la vía más rápida es WhatsApp.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="ci-wa">
+              <a href="https://wa.me/5215532643500?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20en%20Monsanemi%20Psicolog%C3%ADa" target="_blank" rel="noopener" class="btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                Escríbenos por WhatsApp
+              </a>
+            </div>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar Cita</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Primera cita</option>
+                    <option>Ansiedad y estrés</option>
+                    <option>Depresión</option>
+                    <option>Terapia de pareja o familiar</option>
+                    <option>Terapia grupal</option>
+                    <option>Autoestima y desarrollo personal</option>
+                    <option>Orientación y toma de decisiones</option>
+                    <option>Pérdida o ruptura traumática</option>
+                    <option>Atención a adolescentes</option>
+                    <option>Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Cuéntanos brevemente tu situación</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Comparte lo que consideres relevante para tu primera cita…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar por WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar, se abrirá WhatsApp con tu mensaje listo para enviarnos.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo" aria-label="Monsanemi Psicología — inicio">
+            <div class="nav-logo-icon" aria-hidden="true">
+              <img src="img/logo.jpeg" alt="">
+            </div>
+            <div class="nav-logo-copy">
+              <span class="l1">Monsanemi</span>
+              <span class="l2">Psicología</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Hugo Daniel Canal Rodríguez, psicólogo colegiado. Un espacio profesional y confidencial para acompañarte hacia tu bienestar emocional.</p>
+          <!-- TODO: agregar enlaces reales de redes sociales -->
+          <div class="footer-social" aria-label="Redes sociales">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/5215532643500" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#why">Por qué elegirnos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#ayuda">¿En qué ayudo?</a></li>
+            <li><a href="#psicologo">El psicólogo</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Terapia individual</a></li>
+            <li><a href="#servicios">Terapia de pareja</a></li>
+            <li><a href="#servicios">Terapia grupal</a></li>
+            <li><a href="#ayuda">Ansiedad y depresión</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="#contacto">Agendar cita</a></li>
+            <li style="font-size:14px; color:rgba(255,255,255,0.75);">Col. Agrícola Oriental, CDMX</li>
+            <li style="font-size:14px; color:rgba(255,255,255,0.75);">WTC, CDMX</li>
+            <li><a href="https://wa.me/5215532643500" target="_blank" rel="noopener">WhatsApp: 55 3264 3500</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Monsanemi Psicología. Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
